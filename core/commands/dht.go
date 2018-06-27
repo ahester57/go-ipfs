@@ -8,10 +8,10 @@ import (
 	"io"
 	"time"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	e "github.com/ipfs/go-ipfs/core/commands/e"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	path "github.com/ipfs/go-ipfs/path"
+	cmds "github.com/ahester57/go-ipfs/commands"
+	e "github.com/ahester57/go-ipfs/core/commands/e"
+	dag "github.com/ahester57/go-ipfs/merkledag"
+	path "github.com/ahester57/go-ipfs/path"
 
 	ipdht "gx/ipfs/QmNg6M98bwS97SL9ArvrRxKujFps3eV6XvmKgduiYga8Bn/go-libp2p-kad-dht"
 	routing "gx/ipfs/QmPpdpS9fknTBM3qHDcpayU6nYPZQeVjia2fbNrD8YWDe6/go-libp2p-routing"

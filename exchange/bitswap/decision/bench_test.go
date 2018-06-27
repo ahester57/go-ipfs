@@ -5,7 +5,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/ipfs/go-ipfs/exchange/bitswap/wantlist"
+	"github.com/ahester57/go-ipfs/exchange/bitswap/wantlist"
 	u "gx/ipfs/QmPdKqUcHGFdeSpvjVoaTRPPstGif9GBZb5Q56RVw9o69A/go-ipfs-util"
 	cid "gx/ipfs/QmapdYm1b22Frv3k17fqrBYTFRxwiaVJkB299Mfn33edeB/go-cid"
 	"gx/ipfs/QmcW4FGAt24fdK1jBgWQn3yP4R9ZLyWQqjozv9QK7epRhL/go-testutil"

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/ipfs/go-ipfs/thirdparty/verifcid"
+	"github.com/ahester57/go-ipfs/thirdparty/verifcid"
 
 	backoff "gx/ipfs/QmPJUtEJsm5YLUWhF6imvyCH8KZXRJa9Wup7FDMwTy5Ufz/backoff"
 	routing "gx/ipfs/QmPpdpS9fknTBM3qHDcpayU6nYPZQeVjia2fbNrD8YWDe6/go-libp2p-routing"

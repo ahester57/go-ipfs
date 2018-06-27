@@ -5,8 +5,8 @@ import (
 	"math"
 
 	context "context"
-	"github.com/ipfs/go-ipfs/core"
-	fsrepo "github.com/ipfs/go-ipfs/repo/fsrepo"
+	"github.com/ahester57/go-ipfs/core"
+	fsrepo "github.com/ahester57/go-ipfs/repo/fsrepo"
 
 	humanize "gx/ipfs/QmPSBJL4momYnE7DcUyk2DVhD6rH488ZmHBGLbxNdhU44K/go-humanize"
 )

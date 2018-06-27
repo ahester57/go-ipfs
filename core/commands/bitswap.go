@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"io"
 
-	oldcmds "github.com/ipfs/go-ipfs/commands"
-	lgc "github.com/ipfs/go-ipfs/commands/legacy"
-	e "github.com/ipfs/go-ipfs/core/commands/e"
-	bitswap "github.com/ipfs/go-ipfs/exchange/bitswap"
-	decision "github.com/ipfs/go-ipfs/exchange/bitswap/decision"
+	oldcmds "github.com/ahester57/go-ipfs/commands"
+	lgc "github.com/ahester57/go-ipfs/commands/legacy"
+	e "github.com/ahester57/go-ipfs/core/commands/e"
+	bitswap "github.com/ahester57/go-ipfs/exchange/bitswap"
+	decision "github.com/ahester57/go-ipfs/exchange/bitswap/decision"
 
 	cmds "gx/ipfs/QmNueRyPRQiV7PUEpnP4GgGLuK1rKQLaRW7sfPvUetYig1/go-ipfs-cmds"
 	"gx/ipfs/QmPSBJL4momYnE7DcUyk2DVhD6rH488ZmHBGLbxNdhU44K/go-humanize"

@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ipfs/go-ipfs/thirdparty/verifcid"
+	"github.com/ahester57/go-ipfs/thirdparty/verifcid"
 
 	blocks "gx/ipfs/QmTRCUvZLiir12Qr6MV3HKfKMHX8Nf1Vddn6t2g5nsQSb9/go-block-format"
 	exchange "gx/ipfs/QmVSe7YJbPnEmkSUKD3HxSvp8HJoyCU55hQoCMRq7N1jaK/go-ipfs-exchange-interface"

@@ -5,7 +5,7 @@ Packages underneath core/ provide a (relatively) stable, low-level API
 to carry out most IPFS-related tasks.  For more details on the other
 interfaces and how core/... fits into the bigger IPFS picture, see:
 
-  $ godoc github.com/ipfs/go-ipfs
+  $ godoc github.com/ahester57/go-ipfs
 */
 package core
 
@@ -20,22 +20,22 @@ import (
 	"strings"
 	"time"
 
-	bserv "github.com/ipfs/go-ipfs/blockservice"
-	bitswap "github.com/ipfs/go-ipfs/exchange/bitswap"
-	bsnet "github.com/ipfs/go-ipfs/exchange/bitswap/network"
-	rp "github.com/ipfs/go-ipfs/exchange/reprovide"
-	filestore "github.com/ipfs/go-ipfs/filestore"
-	mount "github.com/ipfs/go-ipfs/fuse/mount"
-	merkledag "github.com/ipfs/go-ipfs/merkledag"
-	mfs "github.com/ipfs/go-ipfs/mfs"
-	namesys "github.com/ipfs/go-ipfs/namesys"
-	ipnsrp "github.com/ipfs/go-ipfs/namesys/republisher"
-	p2p "github.com/ipfs/go-ipfs/p2p"
-	"github.com/ipfs/go-ipfs/path/resolver"
-	pin "github.com/ipfs/go-ipfs/pin"
-	repo "github.com/ipfs/go-ipfs/repo"
-	config "github.com/ipfs/go-ipfs/repo/config"
-	ft "github.com/ipfs/go-ipfs/unixfs"
+	bserv "github.com/ahester57/go-ipfs/blockservice"
+	bitswap "github.com/ahester57/go-ipfs/exchange/bitswap"
+	bsnet "github.com/ahester57/go-ipfs/exchange/bitswap/network"
+	rp "github.com/ahester57/go-ipfs/exchange/reprovide"
+	filestore "github.com/ahester57/go-ipfs/filestore"
+	mount "github.com/ahester57/go-ipfs/fuse/mount"
+	merkledag "github.com/ahester57/go-ipfs/merkledag"
+	mfs "github.com/ahester57/go-ipfs/mfs"
+	namesys "github.com/ahester57/go-ipfs/namesys"
+	ipnsrp "github.com/ahester57/go-ipfs/namesys/republisher"
+	p2p "github.com/ahester57/go-ipfs/p2p"
+	"github.com/ahester57/go-ipfs/path/resolver"
+	pin "github.com/ahester57/go-ipfs/pin"
+	repo "github.com/ahester57/go-ipfs/repo"
+	config "github.com/ahester57/go-ipfs/repo/config"
+	ft "github.com/ahester57/go-ipfs/unixfs"
 
 	dht "gx/ipfs/QmNg6M98bwS97SL9ArvrRxKujFps3eV6XvmKgduiYga8Bn/go-libp2p-kad-dht"
 	dhtopts "gx/ipfs/QmNg6M98bwS97SL9ArvrRxKujFps3eV6XvmKgduiYga8Bn/go-libp2p-kad-dht/opts"

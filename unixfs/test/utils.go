@@ -8,11 +8,11 @@ import (
 	"io/ioutil"
 	"testing"
 
-	h "github.com/ipfs/go-ipfs/importer/helpers"
-	trickle "github.com/ipfs/go-ipfs/importer/trickle"
-	mdag "github.com/ipfs/go-ipfs/merkledag"
-	mdagmock "github.com/ipfs/go-ipfs/merkledag/test"
-	ft "github.com/ipfs/go-ipfs/unixfs"
+	h "github.com/ahester57/go-ipfs/importer/helpers"
+	trickle "github.com/ahester57/go-ipfs/importer/trickle"
+	mdag "github.com/ahester57/go-ipfs/merkledag"
+	mdagmock "github.com/ahester57/go-ipfs/merkledag/test"
+	ft "github.com/ahester57/go-ipfs/unixfs"
 
 	u "gx/ipfs/QmPdKqUcHGFdeSpvjVoaTRPPstGif9GBZb5Q56RVw9o69A/go-ipfs-util"
 	mh "gx/ipfs/QmPnFwZ2JXKnXgMw8CdBPxn7FWh6LLdjUjxV1fKHuJnkr8/go-multihash"

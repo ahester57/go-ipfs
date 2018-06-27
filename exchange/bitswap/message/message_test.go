@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	pb "github.com/ipfs/go-ipfs/exchange/bitswap/message/pb"
+	pb "github.com/ahester57/go-ipfs/exchange/bitswap/message/pb"
 
 	u "gx/ipfs/QmPdKqUcHGFdeSpvjVoaTRPPstGif9GBZb5Q56RVw9o69A/go-ipfs-util"
 	blocks "gx/ipfs/QmTRCUvZLiir12Qr6MV3HKfKMHX8Nf1Vddn6t2g5nsQSb9/go-block-format"

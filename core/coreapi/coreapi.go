@@ -16,12 +16,12 @@ package coreapi
 import (
 	"context"
 
-	core "github.com/ipfs/go-ipfs/core"
-	coreiface "github.com/ipfs/go-ipfs/core/coreapi/interface"
-	namesys "github.com/ipfs/go-ipfs/namesys"
-	ipfspath "github.com/ipfs/go-ipfs/path"
-	resolver "github.com/ipfs/go-ipfs/path/resolver"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
+	core "github.com/ahester57/go-ipfs/core"
+	coreiface "github.com/ahester57/go-ipfs/core/coreapi/interface"
+	namesys "github.com/ahester57/go-ipfs/namesys"
+	ipfspath "github.com/ahester57/go-ipfs/path"
+	resolver "github.com/ahester57/go-ipfs/path/resolver"
+	uio "github.com/ahester57/go-ipfs/unixfs/io"
 
 	ipld "gx/ipfs/QmWi2BYBL5gJ3CiAiQchg6rn1A8iBsrWy51EYxvHVjFvLb/go-ipld-format"
 	cid "gx/ipfs/QmapdYm1b22Frv3k17fqrBYTFRxwiaVJkB299Mfn33edeB/go-cid"

@@ -3,9 +3,9 @@ package commands
 import (
 	"fmt"
 
-	"github.com/ipfs/go-ipfs/commands"
-	"github.com/ipfs/go-ipfs/core"
-	"github.com/ipfs/go-ipfs/repo/config"
+	"github.com/ahester57/go-ipfs/commands"
+	"github.com/ahester57/go-ipfs/core"
+	"github.com/ahester57/go-ipfs/repo/config"
 )
 
 // GetNode extracts the node from the environment.

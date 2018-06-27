@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"io"
 
-	mdag "github.com/ipfs/go-ipfs/merkledag"
-	ft "github.com/ipfs/go-ipfs/unixfs"
-	ftpb "github.com/ipfs/go-ipfs/unixfs/pb"
+	mdag "github.com/ahester57/go-ipfs/merkledag"
+	ft "github.com/ahester57/go-ipfs/unixfs"
+	ftpb "github.com/ahester57/go-ipfs/unixfs/pb"
 
 	ipld "gx/ipfs/QmWi2BYBL5gJ3CiAiQchg6rn1A8iBsrWy51EYxvHVjFvLb/go-ipld-format"
 	proto "gx/ipfs/QmZ4Qi3GaRbjcx28Sme5eMH7RQjGkt8wHxt2a65oLaeFEV/gogo-protobuf/proto"

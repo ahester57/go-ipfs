@@ -20,9 +20,9 @@ import (
 	"errors"
 	"fmt"
 
-	h "github.com/ipfs/go-ipfs/importer/helpers"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	ft "github.com/ipfs/go-ipfs/unixfs"
+	h "github.com/ahester57/go-ipfs/importer/helpers"
+	dag "github.com/ahester57/go-ipfs/merkledag"
+	ft "github.com/ahester57/go-ipfs/unixfs"
 
 	ipld "gx/ipfs/QmWi2BYBL5gJ3CiAiQchg6rn1A8iBsrWy51EYxvHVjFvLb/go-ipld-format"
 	cid "gx/ipfs/QmapdYm1b22Frv3k17fqrBYTFRxwiaVJkB299Mfn33edeB/go-cid"

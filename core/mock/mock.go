@@ -3,10 +3,10 @@ package coremock
 import (
 	"context"
 
-	commands "github.com/ipfs/go-ipfs/commands"
-	core "github.com/ipfs/go-ipfs/core"
-	"github.com/ipfs/go-ipfs/repo"
-	config "github.com/ipfs/go-ipfs/repo/config"
+	commands "github.com/ahester57/go-ipfs/commands"
+	core "github.com/ahester57/go-ipfs/core"
+	"github.com/ahester57/go-ipfs/repo"
+	config "github.com/ahester57/go-ipfs/repo/config"
 
 	libp2p "gx/ipfs/QmZ86eLPtXkQ1Dfa992Q8NpXArUoWWh3y728JDcWvzRrvC/go-libp2p"
 	mocknet "gx/ipfs/QmZ86eLPtXkQ1Dfa992Q8NpXArUoWWh3y728JDcWvzRrvC/go-libp2p/p2p/net/mock"

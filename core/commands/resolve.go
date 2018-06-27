@@ -6,12 +6,12 @@ import (
 	"strings"
 	"time"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	"github.com/ipfs/go-ipfs/core"
-	e "github.com/ipfs/go-ipfs/core/commands/e"
-	ns "github.com/ipfs/go-ipfs/namesys"
-	nsopts "github.com/ipfs/go-ipfs/namesys/opts"
-	path "github.com/ipfs/go-ipfs/path"
+	cmds "github.com/ahester57/go-ipfs/commands"
+	"github.com/ahester57/go-ipfs/core"
+	e "github.com/ahester57/go-ipfs/core/commands/e"
+	ns "github.com/ahester57/go-ipfs/namesys"
+	nsopts "github.com/ahester57/go-ipfs/namesys/opts"
+	path "github.com/ahester57/go-ipfs/path"
 
 	"gx/ipfs/QmdE4gMduCKCGAcczM2F5ioYDfdeKuPix138wrES1YSr7f/go-ipfs-cmdkit"
 )

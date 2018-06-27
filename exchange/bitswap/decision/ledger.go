@@ -4,7 +4,7 @@ import (
 	"sync"
 	"time"
 
-	wl "github.com/ipfs/go-ipfs/exchange/bitswap/wantlist"
+	wl "github.com/ahester57/go-ipfs/exchange/bitswap/wantlist"
 
 	cid "gx/ipfs/QmapdYm1b22Frv3k17fqrBYTFRxwiaVJkB299Mfn33edeB/go-cid"
 	peer "gx/ipfs/QmdVrMn1LhB4ybb8hMVaMLXnA8XRSewMnK6YqXKXoTcRvN/go-libp2p-peer"

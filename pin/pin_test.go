@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	bs "github.com/ipfs/go-ipfs/blockservice"
-	mdag "github.com/ipfs/go-ipfs/merkledag"
+	bs "github.com/ahester57/go-ipfs/blockservice"
+	mdag "github.com/ahester57/go-ipfs/merkledag"
 
 	util "gx/ipfs/QmPdKqUcHGFdeSpvjVoaTRPPstGif9GBZb5Q56RVw9o69A/go-ipfs-util"
 	offline "gx/ipfs/QmRCgkkCmf1nMrW2BLZZtjP3Xyw3GfZVYRLix9wrnW4NoR/go-ipfs-exchange-offline"

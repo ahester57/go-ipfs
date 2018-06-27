@@ -7,10 +7,10 @@ import (
 	"fmt"
 	"strings"
 
-	bserv "github.com/ipfs/go-ipfs/blockservice"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	pin "github.com/ipfs/go-ipfs/pin"
-	"github.com/ipfs/go-ipfs/thirdparty/verifcid"
+	bserv "github.com/ahester57/go-ipfs/blockservice"
+	dag "github.com/ahester57/go-ipfs/merkledag"
+	pin "github.com/ahester57/go-ipfs/pin"
+	"github.com/ahester57/go-ipfs/thirdparty/verifcid"
 
 	offline "gx/ipfs/QmRCgkkCmf1nMrW2BLZZtjP3Xyw3GfZVYRLix9wrnW4NoR/go-ipfs-exchange-offline"
 	ipld "gx/ipfs/QmWi2BYBL5gJ3CiAiQchg6rn1A8iBsrWy51EYxvHVjFvLb/go-ipld-format"

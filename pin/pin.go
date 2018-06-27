@@ -9,8 +9,8 @@ import (
 	"sync"
 	"time"
 
-	mdag "github.com/ipfs/go-ipfs/merkledag"
-	dutils "github.com/ipfs/go-ipfs/merkledag/utils"
+	mdag "github.com/ahester57/go-ipfs/merkledag"
+	dutils "github.com/ahester57/go-ipfs/merkledag/utils"
 
 	ipld "gx/ipfs/QmWi2BYBL5gJ3CiAiQchg6rn1A8iBsrWy51EYxvHVjFvLb/go-ipld-format"
 	cid "gx/ipfs/QmapdYm1b22Frv3k17fqrBYTFRxwiaVJkB299Mfn33edeB/go-cid"

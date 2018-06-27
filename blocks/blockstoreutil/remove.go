@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/ipfs/go-ipfs/pin"
+	"github.com/ahester57/go-ipfs/pin"
 
 	cid "gx/ipfs/QmapdYm1b22Frv3k17fqrBYTFRxwiaVJkB299Mfn33edeB/go-cid"
 	bs "gx/ipfs/QmdpuJBPBZ6sLPj9BQpn3Rpi38BT2cF1QMiUfyzNWeySW4/go-ipfs-blockstore"

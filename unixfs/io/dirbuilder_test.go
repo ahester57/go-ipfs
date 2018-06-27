@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	mdtest "github.com/ipfs/go-ipfs/merkledag/test"
-	ft "github.com/ipfs/go-ipfs/unixfs"
+	mdtest "github.com/ahester57/go-ipfs/merkledag/test"
+	ft "github.com/ahester57/go-ipfs/unixfs"
 )
 
 func TestEmptyNode(t *testing.T) {

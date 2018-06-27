@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	opts "github.com/ipfs/go-ipfs/namesys/opts"
-	path "github.com/ipfs/go-ipfs/path"
-	"github.com/ipfs/go-ipfs/unixfs"
+	opts "github.com/ahester57/go-ipfs/namesys/opts"
+	path "github.com/ahester57/go-ipfs/path"
+	"github.com/ahester57/go-ipfs/unixfs"
 
 	offroute "gx/ipfs/QmWLQyLU7yopJnwMvpHM5VSMG4xmbKgcq6P246mDy9xy5E/go-ipfs-routing/offline"
 	pstore "gx/ipfs/QmZR2XWVVBCtbgBWnQhWk2xcQfaR3W8faQPriAiaaj7rsr/go-libp2p-peerstore"

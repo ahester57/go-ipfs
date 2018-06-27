@@ -3,7 +3,7 @@
 package commands
 
 import (
-	cmds "github.com/ipfs/go-ipfs/commands"
+	cmds "github.com/ahester57/go-ipfs/commands"
 
 	"gx/ipfs/QmdE4gMduCKCGAcczM2F5ioYDfdeKuPix138wrES1YSr7f/go-ipfs-cmdkit"
 )
@@ -17,7 +17,7 @@ for mounting. If you'd like to be able to mount, please use a version of
 ipfs compiled with fuse.
 
 For the latest instructions, please check the project's repository:
-  http://github.com/ipfs/go-ipfs
+  http://github.com/ahester57/go-ipfs
 `,
 	},
 }

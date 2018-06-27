@@ -6,11 +6,11 @@ import (
 	"strings"
 	"testing"
 
-	coreapi "github.com/ipfs/go-ipfs/core/coreapi"
+	coreapi "github.com/ahester57/go-ipfs/core/coreapi"
 
 	mh "gx/ipfs/QmPnFwZ2JXKnXgMw8CdBPxn7FWh6LLdjUjxV1fKHuJnkr8/go-multihash"
 
-	opt "github.com/ipfs/go-ipfs/core/coreapi/interface/options"
+	opt "github.com/ahester57/go-ipfs/core/coreapi/interface/options"
 )
 
 var (

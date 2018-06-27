@@ -6,11 +6,11 @@ import (
 	"io"
 	"os"
 
-	oldCmds "github.com/ipfs/go-ipfs/commands"
-	lgc "github.com/ipfs/go-ipfs/commands/legacy"
-	"github.com/ipfs/go-ipfs/core"
-	e "github.com/ipfs/go-ipfs/core/commands/e"
-	"github.com/ipfs/go-ipfs/filestore"
+	oldCmds "github.com/ahester57/go-ipfs/commands"
+	lgc "github.com/ahester57/go-ipfs/commands/legacy"
+	"github.com/ahester57/go-ipfs/core"
+	e "github.com/ahester57/go-ipfs/core/commands/e"
+	"github.com/ahester57/go-ipfs/filestore"
 
 	cmds "gx/ipfs/QmNueRyPRQiV7PUEpnP4GgGLuK1rKQLaRW7sfPvUetYig1/go-ipfs-cmds"
 	cid "gx/ipfs/QmapdYm1b22Frv3k17fqrBYTFRxwiaVJkB299Mfn33edeB/go-cid"

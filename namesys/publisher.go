@@ -7,9 +7,9 @@ import (
 	"sync"
 	"time"
 
-	path "github.com/ipfs/go-ipfs/path"
-	pin "github.com/ipfs/go-ipfs/pin"
-	ft "github.com/ipfs/go-ipfs/unixfs"
+	path "github.com/ahester57/go-ipfs/path"
+	pin "github.com/ahester57/go-ipfs/pin"
+	ft "github.com/ahester57/go-ipfs/unixfs"
 
 	routing "gx/ipfs/QmPpdpS9fknTBM3qHDcpayU6nYPZQeVjia2fbNrD8YWDe6/go-libp2p-routing"
 	proto "gx/ipfs/QmZ4Qi3GaRbjcx28Sme5eMH7RQjGkt8wHxt2a65oLaeFEV/gogo-protobuf/proto"

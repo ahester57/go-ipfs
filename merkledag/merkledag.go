@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sync"
 
-	bserv "github.com/ipfs/go-ipfs/blockservice"
+	bserv "github.com/ahester57/go-ipfs/blockservice"
 
 	ipldcbor "gx/ipfs/QmSF1Ksgn5d7JCTBt4e1yp4wzs6tpYyweCZ4PcDYp3tNeK/go-ipld-cbor"
 	blocks "gx/ipfs/QmTRCUvZLiir12Qr6MV3HKfKMHX8Nf1Vddn6t2g5nsQSb9/go-block-format"

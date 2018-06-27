@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	bserv "github.com/ipfs/go-ipfs/blockservice"
-	coreiface "github.com/ipfs/go-ipfs/core/coreapi/interface"
-	caopts "github.com/ipfs/go-ipfs/core/coreapi/interface/options"
-	corerepo "github.com/ipfs/go-ipfs/core/corerepo"
-	merkledag "github.com/ipfs/go-ipfs/merkledag"
-	pin "github.com/ipfs/go-ipfs/pin"
+	bserv "github.com/ahester57/go-ipfs/blockservice"
+	coreiface "github.com/ahester57/go-ipfs/core/coreapi/interface"
+	caopts "github.com/ahester57/go-ipfs/core/coreapi/interface/options"
+	corerepo "github.com/ahester57/go-ipfs/core/corerepo"
+	merkledag "github.com/ahester57/go-ipfs/merkledag"
+	pin "github.com/ahester57/go-ipfs/pin"
 
 	offline "gx/ipfs/QmRCgkkCmf1nMrW2BLZZtjP3Xyw3GfZVYRLix9wrnW4NoR/go-ipfs-exchange-offline"
 	ipld "gx/ipfs/QmWi2BYBL5gJ3CiAiQchg6rn1A8iBsrWy51EYxvHVjFvLb/go-ipld-format"

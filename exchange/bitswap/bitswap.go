@@ -10,10 +10,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	decision "github.com/ipfs/go-ipfs/exchange/bitswap/decision"
-	bsmsg "github.com/ipfs/go-ipfs/exchange/bitswap/message"
-	bsnet "github.com/ipfs/go-ipfs/exchange/bitswap/network"
-	notifications "github.com/ipfs/go-ipfs/exchange/bitswap/notifications"
+	decision "github.com/ahester57/go-ipfs/exchange/bitswap/decision"
+	bsmsg "github.com/ahester57/go-ipfs/exchange/bitswap/message"
+	bsnet "github.com/ahester57/go-ipfs/exchange/bitswap/network"
+	notifications "github.com/ahester57/go-ipfs/exchange/bitswap/notifications"
 
 	delay "gx/ipfs/QmRJVNatYJwTAHgdSM1Xef9QVQ1Ch3XHdmcrykjP5Y4soL/go-ipfs-delay"
 	flags "gx/ipfs/QmRMGdC6HKdLsPDABL9aXPDidrpmEHzJqFWSvshkbn9Hj8/go-ipfs-flags"

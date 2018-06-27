@@ -9,11 +9,11 @@ import (
 	"path/filepath"
 	"strings"
 
-	core "github.com/ipfs/go-ipfs/core"
-	e "github.com/ipfs/go-ipfs/core/commands/e"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	path "github.com/ipfs/go-ipfs/path"
-	uarchive "github.com/ipfs/go-ipfs/unixfs/archive"
+	core "github.com/ahester57/go-ipfs/core"
+	e "github.com/ahester57/go-ipfs/core/commands/e"
+	dag "github.com/ahester57/go-ipfs/merkledag"
+	path "github.com/ahester57/go-ipfs/path"
+	uarchive "github.com/ahester57/go-ipfs/unixfs/archive"
 
 	"gx/ipfs/QmNueRyPRQiV7PUEpnP4GgGLuK1rKQLaRW7sfPvUetYig1/go-ipfs-cmds"
 	"gx/ipfs/QmPtj12fdwuAqj9sBSTNUxBNu8kCGNp8b3o8yUzMm5GHpq/pb"

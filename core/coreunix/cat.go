@@ -3,10 +3,10 @@ package coreunix
 import (
 	"context"
 
-	core "github.com/ipfs/go-ipfs/core"
-	path "github.com/ipfs/go-ipfs/path"
-	resolver "github.com/ipfs/go-ipfs/path/resolver"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
+	core "github.com/ahester57/go-ipfs/core"
+	path "github.com/ahester57/go-ipfs/path"
+	resolver "github.com/ahester57/go-ipfs/path/resolver"
+	uio "github.com/ahester57/go-ipfs/unixfs/io"
 )
 
 func Cat(ctx context.Context, n *core.IpfsNode, pstr string) (uio.DagReader, error) {

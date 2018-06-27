@@ -25,9 +25,9 @@ import (
 	"fmt"
 	"os"
 
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	format "github.com/ipfs/go-ipfs/unixfs"
-	upb "github.com/ipfs/go-ipfs/unixfs/pb"
+	dag "github.com/ahester57/go-ipfs/merkledag"
+	format "github.com/ahester57/go-ipfs/unixfs"
+	upb "github.com/ahester57/go-ipfs/unixfs/pb"
 
 	bitfield "gx/ipfs/QmTbBs3Y3u5F69XNJzdnnc6SP5GKgcXxCDzx6w8m6piVRT/go-bitfield"
 	ipld "gx/ipfs/QmWi2BYBL5gJ3CiAiQchg6rn1A8iBsrWy51EYxvHVjFvLb/go-ipld-format"

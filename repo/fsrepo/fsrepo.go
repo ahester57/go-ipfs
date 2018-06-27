@@ -11,16 +11,16 @@ import (
 	"strings"
 	"sync"
 
-	filestore "github.com/ipfs/go-ipfs/filestore"
-	keystore "github.com/ipfs/go-ipfs/keystore"
-	repo "github.com/ipfs/go-ipfs/repo"
-	"github.com/ipfs/go-ipfs/repo/common"
-	config "github.com/ipfs/go-ipfs/repo/config"
-	mfsr "github.com/ipfs/go-ipfs/repo/fsrepo/migrations"
-	serialize "github.com/ipfs/go-ipfs/repo/fsrepo/serialize"
-	dir "github.com/ipfs/go-ipfs/thirdparty/dir"
+	filestore "github.com/ahester57/go-ipfs/filestore"
+	keystore "github.com/ahester57/go-ipfs/keystore"
+	repo "github.com/ahester57/go-ipfs/repo"
+	"github.com/ahester57/go-ipfs/repo/common"
+	config "github.com/ahester57/go-ipfs/repo/config"
+	mfsr "github.com/ahester57/go-ipfs/repo/fsrepo/migrations"
+	serialize "github.com/ahester57/go-ipfs/repo/fsrepo/serialize"
+	dir "github.com/ahester57/go-ipfs/thirdparty/dir"
 
-	"github.com/ipfs/go-ipfs/Godeps/_workspace/src/github.com/mitchellh/go-homedir"
+	"github.com/ahester57/go-ipfs/Godeps/_workspace/src/github.com/mitchellh/go-homedir"
 
 	util "gx/ipfs/QmPdKqUcHGFdeSpvjVoaTRPPstGif9GBZb5Q56RVw9o69A/go-ipfs-util"
 	measure "gx/ipfs/QmXez8SABR95KKKgU9XFtTTQ79QRn2nWS9o5pa1EcHsLs5/go-ds-measure"
@@ -401,7 +401,7 @@ func (r *FSRepo) openDatastore() error {
 		return fmt.Errorf("required Datastore.Spec entry missing from config file")
 	}
 	if r.config.Datastore.NoSync {
-		log.Warning("NoSync is now deprecated in favor of datastore specific settings. If you want to disable fsync on flatfs set 'sync' to false. See https://github.com/ipfs/go-ipfs/blob/master/docs/datastores.md#flatfs.")
+		log.Warning("NoSync is now deprecated in favor of datastore specific settings. If you want to disable fsync on flatfs set 'sync' to false. See https://github.com/ahester57/go-ipfs/blob/master/docs/datastores.md#flatfs.")
 	}
 
 	dsc, err := AnyDatastoreConfig(r.config.Datastore.Spec)

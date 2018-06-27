@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	bsmsg "github.com/ipfs/go-ipfs/exchange/bitswap/message"
-	wl "github.com/ipfs/go-ipfs/exchange/bitswap/wantlist"
+	bsmsg "github.com/ahester57/go-ipfs/exchange/bitswap/message"
+	wl "github.com/ahester57/go-ipfs/exchange/bitswap/wantlist"
 
 	blocks "gx/ipfs/QmTRCUvZLiir12Qr6MV3HKfKMHX8Nf1Vddn6t2g5nsQSb9/go-block-format"
 	logging "gx/ipfs/QmcVVHfdyv15GVPk7NrxdWjh2hLVccXnoD8j2tyQShiXJb/go-log"

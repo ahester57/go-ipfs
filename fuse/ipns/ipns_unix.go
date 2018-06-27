@@ -11,12 +11,12 @@ import (
 	"io"
 	"os"
 
-	core "github.com/ipfs/go-ipfs/core"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	mfs "github.com/ipfs/go-ipfs/mfs"
-	namesys "github.com/ipfs/go-ipfs/namesys"
-	path "github.com/ipfs/go-ipfs/path"
-	ft "github.com/ipfs/go-ipfs/unixfs"
+	core "github.com/ahester57/go-ipfs/core"
+	dag "github.com/ahester57/go-ipfs/merkledag"
+	mfs "github.com/ahester57/go-ipfs/mfs"
+	namesys "github.com/ahester57/go-ipfs/namesys"
+	path "github.com/ahester57/go-ipfs/path"
+	ft "github.com/ahester57/go-ipfs/unixfs"
 
 	fuse "gx/ipfs/QmSJBsmLP1XMjv8hxYg2rUMdPDB7YUpyBo9idjrJ6Cmq6F/fuse"
 	fs "gx/ipfs/QmSJBsmLP1XMjv8hxYg2rUMdPDB7YUpyBo9idjrJ6Cmq6F/fuse/fs"

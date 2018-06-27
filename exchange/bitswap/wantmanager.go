@@ -5,10 +5,10 @@ import (
 	"sync"
 	"time"
 
-	engine "github.com/ipfs/go-ipfs/exchange/bitswap/decision"
-	bsmsg "github.com/ipfs/go-ipfs/exchange/bitswap/message"
-	bsnet "github.com/ipfs/go-ipfs/exchange/bitswap/network"
-	wantlist "github.com/ipfs/go-ipfs/exchange/bitswap/wantlist"
+	engine "github.com/ahester57/go-ipfs/exchange/bitswap/decision"
+	bsmsg "github.com/ahester57/go-ipfs/exchange/bitswap/message"
+	bsnet "github.com/ahester57/go-ipfs/exchange/bitswap/network"
+	wantlist "github.com/ahester57/go-ipfs/exchange/bitswap/wantlist"
 
 	metrics "gx/ipfs/QmRg1gKTHzc3CZXSKzem8aR4E3TubFhbgXwfVuWnSK5CC5/go-metrics-interface"
 	cid "gx/ipfs/QmapdYm1b22Frv3k17fqrBYTFRxwiaVJkB299Mfn33edeB/go-cid"

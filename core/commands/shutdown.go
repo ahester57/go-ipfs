@@ -5,7 +5,7 @@ import (
 
 	"gx/ipfs/QmdE4gMduCKCGAcczM2F5ioYDfdeKuPix138wrES1YSr7f/go-ipfs-cmdkit"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
+	cmds "github.com/ahester57/go-ipfs/commands"
 )
 
 var daemonShutdownCmd = &cmds.Command{

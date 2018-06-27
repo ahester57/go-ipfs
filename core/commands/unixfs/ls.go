@@ -9,15 +9,15 @@ import (
 
 	cmdkit "gx/ipfs/QmdE4gMduCKCGAcczM2F5ioYDfdeKuPix138wrES1YSr7f/go-ipfs-cmdkit"
 
-	cmds "github.com/ipfs/go-ipfs/commands"
-	core "github.com/ipfs/go-ipfs/core"
-	e "github.com/ipfs/go-ipfs/core/commands/e"
-	merkledag "github.com/ipfs/go-ipfs/merkledag"
-	path "github.com/ipfs/go-ipfs/path"
-	resolver "github.com/ipfs/go-ipfs/path/resolver"
-	unixfs "github.com/ipfs/go-ipfs/unixfs"
-	uio "github.com/ipfs/go-ipfs/unixfs/io"
-	unixfspb "github.com/ipfs/go-ipfs/unixfs/pb"
+	cmds "github.com/ahester57/go-ipfs/commands"
+	core "github.com/ahester57/go-ipfs/core"
+	e "github.com/ahester57/go-ipfs/core/commands/e"
+	merkledag "github.com/ahester57/go-ipfs/merkledag"
+	path "github.com/ahester57/go-ipfs/path"
+	resolver "github.com/ahester57/go-ipfs/path/resolver"
+	unixfs "github.com/ahester57/go-ipfs/unixfs"
+	uio "github.com/ahester57/go-ipfs/unixfs/io"
+	unixfspb "github.com/ahester57/go-ipfs/unixfs/pb"
 )
 
 type LsLink struct {

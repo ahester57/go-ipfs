@@ -11,11 +11,11 @@ import (
 	"io"
 	"io/ioutil"
 
-	coreiface "github.com/ipfs/go-ipfs/core/coreapi/interface"
-	caopts "github.com/ipfs/go-ipfs/core/coreapi/interface/options"
-	dag "github.com/ipfs/go-ipfs/merkledag"
-	dagutils "github.com/ipfs/go-ipfs/merkledag/utils"
-	ft "github.com/ipfs/go-ipfs/unixfs"
+	coreiface "github.com/ahester57/go-ipfs/core/coreapi/interface"
+	caopts "github.com/ahester57/go-ipfs/core/coreapi/interface/options"
+	dag "github.com/ahester57/go-ipfs/merkledag"
+	dagutils "github.com/ahester57/go-ipfs/merkledag/utils"
+	ft "github.com/ahester57/go-ipfs/unixfs"
 
 	ipld "gx/ipfs/QmWi2BYBL5gJ3CiAiQchg6rn1A8iBsrWy51EYxvHVjFvLb/go-ipld-format"
 	cid "gx/ipfs/QmapdYm1b22Frv3k17fqrBYTFRxwiaVJkB299Mfn33edeB/go-cid"

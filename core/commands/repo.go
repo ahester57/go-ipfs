@@ -9,12 +9,12 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	oldcmds "github.com/ipfs/go-ipfs/commands"
-	lgc "github.com/ipfs/go-ipfs/commands/legacy"
-	e "github.com/ipfs/go-ipfs/core/commands/e"
-	corerepo "github.com/ipfs/go-ipfs/core/corerepo"
-	config "github.com/ipfs/go-ipfs/repo/config"
-	fsrepo "github.com/ipfs/go-ipfs/repo/fsrepo"
+	oldcmds "github.com/ahester57/go-ipfs/commands"
+	lgc "github.com/ahester57/go-ipfs/commands/legacy"
+	e "github.com/ahester57/go-ipfs/core/commands/e"
+	corerepo "github.com/ahester57/go-ipfs/core/corerepo"
+	config "github.com/ahester57/go-ipfs/repo/config"
+	fsrepo "github.com/ahester57/go-ipfs/repo/fsrepo"
 
 	cmds "gx/ipfs/QmNueRyPRQiV7PUEpnP4GgGLuK1rKQLaRW7sfPvUetYig1/go-ipfs-cmds"
 	cid "gx/ipfs/QmapdYm1b22Frv3k17fqrBYTFRxwiaVJkB299Mfn33edeB/go-cid"

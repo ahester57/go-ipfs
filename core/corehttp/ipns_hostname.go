@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strings"
 
-	core "github.com/ipfs/go-ipfs/core"
-	nsopts "github.com/ipfs/go-ipfs/namesys/opts"
+	core "github.com/ahester57/go-ipfs/core"
+	nsopts "github.com/ahester57/go-ipfs/namesys/opts"
 
 	isd "gx/ipfs/QmZmmuAXgX73UQmX1jRKjTGmjzq24Jinqkq8vzkBtno4uX/go-is-domain"
 )

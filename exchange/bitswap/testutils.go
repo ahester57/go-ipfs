@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	tn "github.com/ipfs/go-ipfs/exchange/bitswap/testnet"
+	tn "github.com/ahester57/go-ipfs/exchange/bitswap/testnet"
 
 	delay "gx/ipfs/QmRJVNatYJwTAHgdSM1Xef9QVQ1Ch3XHdmcrykjP5Y4soL/go-ipfs-delay"
 	testutil "gx/ipfs/QmcW4FGAt24fdK1jBgWQn3yP4R9ZLyWQqjozv9QK7epRhL/go-testutil"
